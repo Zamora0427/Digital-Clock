@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(retro-black-alarm-clock-dissolving-into-little-particles-time-can-return-never-wait-anyone-time-management-concept.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 8px;
+}
+
+.digital{
+    width: 350px;
+    height: 60px;
+    background-color: rgb(216, 216, 216);
+    opacity: .8;
+    margin-bottom: 25px;
+    border-radius: 4px;
+}
+
+.clock {
+    display: flex;
+    
+}
+
+.clock div {
+    margin: 5px;
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background: black;
+    opacity: .8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 2px 2px 4px 4px;
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgb(65, 65, 65);
+    opacity: .8;
+    color: white;
+    font-weight: bold;
+}
+
+.clock #ampm {
+    position: absolute;
+    bottom: 42.5%;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+}
